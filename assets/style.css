@@ -3,6 +3,10 @@
   color: white;
 }
 
+.light-bg {
+  background-color: rgb(241, 238, 247);
+}
+
 .column {
   display: flex;
   justify-content: center;
@@ -10,4 +14,32 @@
 
 .center-title {
   text-align: center;
+}
+
+.is-med-lg {
+  padding: 10rem 1.5rem !important;
+}
+
+.service-card {
+  background-color: white;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 270px;
+  width: 370px;
+}
+
+.services-section {
+  position: relative;
+}
+
+.services-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: -100px;
 }
