@@ -31,9 +31,9 @@
 }
 
 .navbar {
-  background-color: rgb(57, 51, 70);
+  background-color: rgba(57, 51, 70, 0);
   width: 100vw;
-  position: sticky;
+  position: fixed;
 }
 
 .left-nav {
