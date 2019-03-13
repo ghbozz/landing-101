@@ -116,7 +116,7 @@
   width: 100vw;
   position: absolute;
   left: 50%;
-  bottom: 50px;
+  bottom: 0px;
   transform: translate(-50%, 0);
 }
 
@@ -187,5 +187,14 @@
 .custom-btn i {
   padding-right: 7px;
   color: rgb(241, 238, 247);
+}
+
+.greyscale {
+  height: 70px;
+  filter: grayscale(100%);
+}
+
+.tech-icons-container {
+  margin-top: 50px;
 }
 
