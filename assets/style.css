@@ -31,9 +31,12 @@
 }
 
 .navbar {
-  background-color: rgba(57, 51, 70, 0);
   width: 100vw;
   position: fixed;
+}
+
+.transparent-nav {
+  background-color: rgba(57, 51, 70, 0);
 }
 
 .left-nav {
@@ -63,6 +66,7 @@
 
 .banner {
   background-image: url('images/banner-background.png');
+  background-attachment: fixed;
   background-size: cover;
   background-position: center;
 }
@@ -72,7 +76,7 @@
   top: -30px;
   background-color: white;
   box-shadow: 1px 2px 7px rgba(0, 0, 0, .5);
-  border-radius: 5px;
+  border-radius: 12px;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -131,17 +135,20 @@
 }
 
 #beatween img {
+  border-radius: 7px;
   transform: scale(1.9);
   box-shadow: 1px 2px 7px rgba(0, 0, 0, .5);
 }
 
 #game-blog img {
+  border-radius: 7px;
   transform: scale(1.5);
   box-shadow: 1px 2px 7px rgba(0, 0, 0, .5);
   z-index: -1;
 }
 
 #book-a-friend img {
+  border-radius: 7px;
   transform: scale(1.5);
   box-shadow: 1px 2px 7px rgba(0, 0, 0, .5);
   z-index: -1;
@@ -168,6 +175,8 @@
 }
 
 .contact-text {
+  display: flex;
+  align-items: center;
   width: 70%;
 }
 
