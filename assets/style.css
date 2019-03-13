@@ -190,11 +190,30 @@
 }
 
 .greyscale {
+  opacity: 0.7;
   height: 70px;
   filter: grayscale(100%);
+  transition: all 0.3s ease-out;
+}
+
+.greyscale:hover {
+  opacity: 1;
+  filter: grayscale(0%);
 }
 
 .tech-icons-container {
   margin-top: 50px;
+}
+
+.footer-custom {
+  display: flex;
+  // flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2em;
+}
+
+.footer-icons i {
+  padding: 0 7px;
 }
 
