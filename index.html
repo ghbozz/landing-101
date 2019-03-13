@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
   <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>landing</title>
 </head>
 <body>
@@ -25,19 +26,14 @@
   <section class="section is-large banner dark-bg">
     <div class="banner-content">
       <div class="container">
-<!--         <h1 class="title has-text-light custom-font">
-          Romain Sanson
-        </h1>
-        <h2 class="subtitle has-text-light custom-font-light">
-          Junior Web Developer
-        </h2> -->
+
       </div>
     </div>
   </section>
 
   <section class="section services-section is-medium is-med-lg light-bg">
     <div class="container services-container">
-      <div class="columns">
+      <div class="columns rellax" data-rellax-speed="2">
         <div class="column">
           <div class="service-card">
             <h2 class="title custom-font-light">Branding</h2>
@@ -65,7 +61,7 @@
     <p class="subtitle has-text-light custom-font-light">Some projects i've worked on</p>
     <a class="custom-btn is-rounded"><i class="fab fa-github subtitle"></i>My Github Profile</a>
     <div class="container projects-container">
-      <div class="columns is-gapless">
+      <div class="columns is-gapless" data-aos="fade-up" data-aos-duration="700">
         <div class="column align-bottom">
           <div class="project-card" id="book-a-friend">
             <img src="assets/images/book_a_friend_index.png" alt="">
@@ -153,5 +149,15 @@
       </div>
     </div>
   </section>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.7.1/rellax.min.js"></script>
+  <script>
+    var rellax = new Rellax('.rellax');
+  </script>
 </body>
 </html>
