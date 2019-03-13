@@ -51,7 +51,7 @@
 
 .service-card {
   background-color: white;
-  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  box-shadow: 1px 2px 7px rgba(0, 0, 0, .5);
   border-radius: 5px;
   text-align: center;
   display: flex;
@@ -71,6 +71,17 @@
   left: 50%;
   transform: translate(-50%, 0);
   top: -70px;
+}
+
+.projects-section {
+  position: relative;
+}
+
+.projects-section h1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 50px;
 }
 
 .contact-section {
