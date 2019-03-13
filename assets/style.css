@@ -31,9 +31,21 @@
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgb(57, 51, 70);
   width: 100vw;
-  position: fixed;
+  position: sticky;
+}
+
+.left-nav {
+  color: rgb(241, 238, 247);
+}
+
+.right-nav a {
+  color: rgb(241, 238, 247);
+}
+
+.right-nav a {
+  padding: 0 7px;
 }
 
 .nav-container {
@@ -50,6 +62,8 @@
 }
 
 .service-card {
+  position: absolute;
+  top: -30px;
   background-color: white;
   box-shadow: 1px 2px 7px rgba(0, 0, 0, .5);
   border-radius: 5px;
@@ -60,6 +74,12 @@
   flex-direction: column;
   height: 290px;
   width: 370px;
+  transition: all 0.5s ease-out;
+}
+
+.service-card:hover {
+  top: -60px;
+  transform: scale(1.05)
 }
 
 .services-section {
@@ -84,6 +104,44 @@
   top: 50px;
 }
 
+.projects-section p {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 120px;
+}
+
+.projects-container {
+  padding: 0 80px;
+  width: 100vw;
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  transform: translate(-50%, 0);
+}
+
+#beatween img {
+  transform: scale(1.9);
+  box-shadow: 1px 2px 7px rgba(0, 0, 0, .5);
+}
+
+#game-blog img {
+  transform: scale(1.5);
+  box-shadow: 1px 2px 7px rgba(0, 0, 0, .5);
+  z-index: -1;
+}
+
+#book-a-friend img {
+  transform: scale(1.5);
+  box-shadow: 1px 2px 7px rgba(0, 0, 0, .5);
+  z-index: -1;
+}
+
+.project-card {
+  display: flex;
+  align-items: flex-end;
+}
+
 .contact-section {
   position: relative;
 }
@@ -102,3 +160,32 @@
 .contact-text {
   width: 70%;
 }
+
+.custom-btn {
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 150px;
+  padding: 15px 25px;
+  border-radius: 25px;
+  background-color: rgb(64, 193, 146);
+  text-decoration: none;
+  color: rgb(241, 238, 247);
+  transition: all 0.5s ease-out;
+}
+
+.custom-btn:hover {
+  background-color: rgba(64, 193, 146, 0.7);
+  color: white;
+}
+
+.custom-btn a {
+  text-decoration: none;
+}
+
+.custom-btn i {
+  padding-right: 7px;
+  color: rgb(241, 238, 247);
+}
+
