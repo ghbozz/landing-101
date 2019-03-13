@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600');
+.custom-font {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.custom-font-light {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: lighter;
+}
+
 .dark-bg {
   background-color: rgb(57, 51, 70);
   color: white;
@@ -20,6 +30,25 @@
   padding: 10rem 1.5rem !important;
 }
 
+.navbar {
+  background-color: rgba(0, 0, 0, 0);
+  width: 100vw;
+  position: fixed;
+}
+
+.nav-container {
+  width: 100vw;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right-container {
+  height: 100%;
+  border-left: 20px solid red;
+}
+
 .service-card {
   background-color: white;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
@@ -29,7 +58,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 270px;
+  height: 290px;
   width: 370px;
 }
 
@@ -41,5 +70,24 @@
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
-  top: -100px;
+  top: -70px;
+}
+
+.contact-section {
+  position: relative;
+}
+
+.contact-section h1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 50px;
+}
+
+.form-container {
+  width: 70%;
+}
+
+.contact-text {
+  width: 70%;
 }
