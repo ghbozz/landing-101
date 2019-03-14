@@ -279,3 +279,65 @@
   color: rgb(57, 51, 70);
 }
 
+@media(max-width: 768px) {
+  .services-container {
+    position: relative;
+    left: 0;
+    transform: translate(0, 0);
+    top: 0px;
+  }
+
+  .services-section {
+    position: relative;
+  }
+
+  .service-card {
+    position: relative;
+    background-color: white;
+    box-shadow: 1px 2px 30px rgba(0, 0, 0, .5);
+    border-radius: 12px;
+    text-align: center;
+    height: 290px;
+    width: 370px;
+    transition: all 0.5s ease-out;
+  }
+
+  .projects-section {
+    position: relative;
+  }
+
+  .projects-container {
+    position: relative;
+    padding: 0 0px;
+  }
+
+  #beatween img {
+    border-radius: 7px;
+    transform: scale(1);
+    box-shadow: 1px 2px 30px rgba(0, 0, 0, .5);
+  }
+
+  #game-blog img {
+    border-radius: 7px;
+    transform: scale(1);
+    box-shadow: 1px 2px 30px rgba(0, 0, 0, .5);
+    z-index: 1;
+    transition: all 0.5s ease-out;
+  }
+
+  #book-a-friend img {
+    border-radius: 7px;
+    transform: scale(1);
+    box-shadow: 1px 2px 30px rgba(0, 0, 0, .5);
+    z-index: 1;
+  }
+
+  .project-card {
+    display: block;
+  }
+
+  .banner {
+    display: block;
+  }
+}
+
