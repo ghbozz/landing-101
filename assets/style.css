@@ -91,6 +91,16 @@
   transition: all 0.5s ease-out;
 }
 
+.service-card:after {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  bottom: -350px;
+  height: 350px;
+  border-left: 1px solid rgba(57, 51, 70, 0.2);
+  z-index: -1;
+}
+
 .service-card h2 {
   color: rgb(64, 193, 146);
 }
