@@ -77,6 +77,10 @@
   background-position: center;
 }
 
+.banner-content {
+  margin-left: 80px;
+}
+
 .service-card {
   position: absolute;
   top: 0px;
