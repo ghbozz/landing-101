@@ -52,10 +52,12 @@
 
 .right-nav a {
   color: rgb(241, 238, 247);
+  padding: 0 7px;
+  transition: all 0.5s ease-out;
 }
 
-.right-nav a {
-  padding: 0 7px;
+.right-nav a:hover {
+  color: white;
 }
 
 .nav-container {
@@ -378,4 +380,3 @@
     display: block;
   }
 }
-
