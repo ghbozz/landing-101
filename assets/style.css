@@ -309,6 +309,29 @@
   transform: scale(1.1);
 }
 
+.project-tech {
+  margin-top: 15px;
+}
+
+.project-tech .column p {
+  position: relative;
+  bottom: 0px;
+  top: 0px;
+}
+
+.column-tech {
+  flex-direction: column;
+  justify-content: start;
+}
+
+.card {
+  border-radius: 7px;
+}
+
+.card img {
+  border-radius: 7px;
+}
+
 @media(max-width: 768px) {
   .transparent-nav {
   background-color: rgba(57, 51, 70, 1);

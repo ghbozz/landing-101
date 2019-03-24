@@ -11,4 +11,19 @@ const initUpdateNavbarOnScroll = () => {
   }
 }
 
-initUpdateNavbarOnScroll()
+const toggleModal = () => {
+  const modal = document.querySelector('.modal')
+  const close = document.querySelector('.modal-close')
+  const projects = document.querySelectorAll('.project-card img')
+  projects.forEach((card) => {
+    card.addEventListener('click', (event) => {
+      modal.classList.add('is-active')
+    })
+  })
+  close.addEventListener('click', (event) => {
+    modal.classList.remove('is-active')
+  })
+}
+
+toggleModal();
+initUpdateNavbarOnScroll();
