@@ -332,6 +332,10 @@
   border-radius: 7px;
 }
 
+.fa-angle-right {
+  color: rgb(64, 193, 146);
+}
+
 @media(max-width: 768px) {
   .transparent-nav {
   background-color: rgba(57, 51, 70, 1);
