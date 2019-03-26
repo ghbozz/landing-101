@@ -8,6 +8,10 @@
   font-weight: lighter;
 }
 
+.main-modal {
+  overflow: hidden;
+}
+
 .dark-bg {
 /*  background-color: rgb(57, 51, 70);
   color: white;*/
